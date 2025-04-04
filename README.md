@@ -24,13 +24,19 @@ We are using orpheus-3b for TTS, although it does feel a bit heavy. It was selec
 
 ## Below is the quality of the TTS we currently aim to provide.
 
-![intro]('./assets/intro.wav)
 
-![inference]('./assets/inference.wav)
+https://github.com/user-attachments/assets/05ff08d7-0d9e-4b2f-b253-a5cf39b30d97
+
+
+
+https://github.com/user-attachments/assets/3ec7ed44-64a3-4ec5-b4d1-5402efe814ef
+
 
 ## VL Inference
 
-![inference](./assets/beach_inference.mp4)
+
+https://github.com/user-attachments/assets/fe81d20b-3ba6-473c-943f-ec319ed7814b
+
 
 ## RoadMap
 
