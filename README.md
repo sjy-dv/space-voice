@@ -10,7 +10,7 @@ SpaceVoice is an AI that assists individuals with visual impairments not only in
 
 ![architecture](./assets/architecture.png)
 
-In the current version, we are using the Qwen2.5-VL-3B-INSTRUCT model. It is on the lighter side among VL models, and models that are overly parameter-heavy may not produce satisfactory learning results. Additionally, once the next version and dataset are prepared, we plan to achieve more satisfactory outcomes through the GRPO algorithm.
+In the current version, we are using the Qwen2.5-VL-3B-INSTRUCT model. It is on the lighter side among VL models, and models that are overly parameter-lite may not produce satisfactory learning results. Additionally, once the next version and dataset are prepared, we plan to achieve more satisfactory outcomes through the GRPO algorithm.
 
 **The main reason is the necessity for a compact LLM that can operate on portable devices with limited resources, even in environments without internet connectivity.**
 
