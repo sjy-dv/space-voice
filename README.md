@@ -12,6 +12,8 @@ SpaceVoice is an AI that assists individuals with visual impairments not only in
 
 In the current version, we are using the Qwen2.5-VL-3B-INSTRUCT model. It is on the lighter side among VL models, and models that are overly parameter-lite may not produce satisfactory learning results. Additionally, once the next version and dataset are prepared, we plan to achieve more satisfactory outcomes through the GRPO algorithm.
 
+For the anticipated amazing performance of GRPO, please refer to the article I wrote below. :=> (https://medium.com/stackademic/how-much-will-grpo-improve-llm-performance-1d3de8b18262)
+
 **The main reason is the necessity for a compact LLM that can operate on portable devices with limited resources, even in environments without internet connectivity.**
 
 - baseModel : https://huggingface.co/unsloth/Qwen2.5-3B-Instruct
