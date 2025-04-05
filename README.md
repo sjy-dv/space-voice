@@ -44,6 +44,10 @@ Through this approach, users will be able to experience a greater sense of empat
 
 ## The reason why there is the possibility of reaching the desired roadmap through image preprocessing using a CNN model.
 
+
+https://github.com/user-attachments/assets/0ef068d0-2246-455f-8319-2d874417c57c
+
+
 dataset: https://huggingface.co/datasets/X-ART/LeX-10K
 
 Although this dataset is a labeled dataset for OCR, it was used for sampling because the desired approach is similar, with only differences in the descriptive expressions.
@@ -52,3 +56,6 @@ As seen in the video, the model fine-tuned using the above process was able to r
 
 ![face_detect](./assets/face_detect.jpeg)
 This makes it possible to identify the person in front and to perform actions such as locating the trained individual, and as mentioned earlier, if a detecting bounding box is inserted through image preprocessing by the CNN before the model, the scenario can be fully realized.
+
+## If you want to experience the example model together, download my model from the respective Hugging Face page.
+[huggingface](https://huggingface.co/devJy/space-voice-label-detect-beta)
