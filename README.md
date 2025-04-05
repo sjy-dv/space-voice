@@ -41,3 +41,14 @@ https://github.com/user-attachments/assets/fe81d20b-3ba6-473c-943f-ec319ed7814b
 My roadmap isn’t limited to merely updating the TTS or upgrading the model by enhancing the VL dataset. Although it isn’t feasible with the current VL dataset, I have plans to incorporate an image preprocessing process using a CNN before the VL stage. This process would learn to recognize and preprocess images of family members’ faces or those of loved ones that I want to remember, so that the LLM can perceive and describe them.
 
 Through this approach, users will be able to experience a greater sense of empathy. Additionally, in situations where they might become separated from their family amidst a large crowd, this technology could help them locate their loved ones.
+
+## The reason why there is the possibility of reaching the desired roadmap through image preprocessing using a CNN model.
+
+dataset: https://huggingface.co/datasets/X-ART/LeX-10K
+
+Although this dataset is a labeled dataset for OCR, it was used for sampling because the desired approach is similar, with only differences in the descriptive expressions.
+
+As seen in the video, the model fine-tuned using the above process was able to recognize Jessica.
+
+![face_detect](./assets/face_detect.jpeg)
+This makes it possible to identify the person in front and to perform actions such as locating the trained individual, and as mentioned earlier, if a detecting bounding box is inserted through image preprocessing by the CNN before the model, the scenario can be fully realized.
