@@ -59,7 +59,7 @@ This makes it possible to identify the person in front and to perform actions su
 
 |              Training Image               |        Label        |
 | :---------------------------------------: | :-----------------: |
-| ![winter1](./assets/winter1.jpeg =60x60)  |    winter(aespa)    |
+|     ![](./assets/winter1.jpeg =60x60)     |    winter(aespa)    |
 | ![winter2](./assets/winter2.jpeg =60x60)  |    winter(aespa)    |
 |  ![winter3](./assets/winter3.jpg =60x60)  |    winter(aespa)    |
 | ![chaewon1](./assets/chaewon.jpeg =60x60) | chaewon(lesserafim) |
