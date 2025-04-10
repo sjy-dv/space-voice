@@ -75,6 +75,10 @@ We can see that the analysis works well.
 The current model output needs to be adjusted with a new dataset, but what remains crucial is the model’s ability to recognize and understand the given text data.
 Please take a look at the overall sampling video.
 
+
+https://github.com/user-attachments/assets/e31588ea-5bf2-46eb-9135-abe486a141c3
+
+
 ## If you want to experience the example model together, download my model from the respective Hugging Face page.
 
 [huggingface](https://huggingface.co/devJy/space-voice-label-detect-beta)
