@@ -57,16 +57,14 @@ This makes it possible to identify the person in front and to perform actions su
 
 ## RoadMap UPDATE(2025-04-10)
 
-|              Training Image              |        Label        |
-| :--------------------------------------: | :-----------------: |
-| ![winter1](./assets/winter1.jpeg=60x60)  |    winter(aespa)    |
-| ![winter2](./assets/winter2.jpeg=60x60)  |    winter(aespa)    |
-|  ![winter3](./assets/winter3.jpg=60x60)  |    winter(aespa)    |
-| ![chaewon1](./assets/chaewon.jpeg=60x60) | chaewon(lesserafim) |
+|              Training Image               |        Label        |
+| :---------------------------------------: | :-----------------: |
+| ![winter1](./assets/winter1.jpeg =60x60)  |    winter(aespa)    |
+| ![winter2](./assets/winter2.jpeg =60x60)  |    winter(aespa)    |
+|  ![winter3](./assets/winter3.jpg =60x60)  |    winter(aespa)    |
+| ![chaewon1](./assets/chaewon.jpeg =60x60) | chaewon(lesserafim) |
 
 Since it's not feasible to use hundreds of actual family photos, we conducted tests using a small number of realistic images. As I'm Korean, I chose two popular Korean celebrities with similar appearances as the base: Winter from aespa and Kim Chaewon from LE SSERAFIM.
-
-## If you want to experience the example model together, download my model from the respective Hugging Face page.
 
 |         Input Image          |          Output Label          |
 | :--------------------------: | :----------------------------: |
@@ -76,5 +74,7 @@ We can see that the analysis works well.
 
 The current model output needs to be adjusted with a new dataset, but what remains crucial is the model’s ability to recognize and understand the given text data.
 Please take a look at the overall sampling video.
+
+## If you want to experience the example model together, download my model from the respective Hugging Face page.
 
 [huggingface](https://huggingface.co/devJy/space-voice-label-detect-beta)
