@@ -60,9 +60,9 @@ This makes it possible to identify the person in front and to perform actions su
 |                      Training Image                      |        Label        |
 | :------------------------------------------------------: | :-----------------: |
 | <img src="./assets/winter1.jpeg" width="60" height="60"> |    winter(aespa)    |
-|         ![winter2](./assets/winter2.jpeg =60x60)         |    winter(aespa)    |
-|         ![winter3](./assets/winter3.jpg =60x60)          |    winter(aespa)    |
-|        ![chaewon1](./assets/chaewon.jpeg =60x60)         | chaewon(lesserafim) |
+| <img src="./assets/winter2.jpeg" width="60" height="60"> |    winter(aespa)    |
+| <img src="./assets/winter3.jpg" width="60" height="60">  |    winter(aespa)    |
+| <img src="./assets/chaewon.jpeg" width="60" height="60"> | chaewon(lesserafim) |
 
 Since it's not feasible to use hundreds of actual family photos, we conducted tests using a small number of realistic images. As I'm Korean, I chose two popular Korean celebrities with similar appearances as the base: Winter from aespa and Kim Chaewon from LE SSERAFIM.
 
