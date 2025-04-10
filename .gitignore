@@ -2,4 +2,6 @@ speaker
 space-voice-vl-poc
 space-voice-vl-v1
 facedb
-*.jpg
+compare.jpg
+compare2.jpg
+labeled_image.jpg

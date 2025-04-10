@@ -44,9 +44,7 @@ Through this approach, users will be able to experience a greater sense of empat
 
 ## The reason why there is the possibility of reaching the desired roadmap through image preprocessing using a CNN model.
 
-
 https://github.com/user-attachments/assets/0ef068d0-2246-455f-8319-2d874417c57c
-
 
 dataset: https://huggingface.co/datasets/X-ART/LeX-10K
 
@@ -57,5 +55,29 @@ As seen in the video, the model fine-tuned using the above process was able to r
 ![face_detect](./assets/face_detect.jpeg)
 This makes it possible to identify the person in front and to perform actions such as locating the trained individual, and as mentioned earlier, if a detecting bounding box is inserted through image preprocessing by the CNN before the model, the scenario can be fully realized.
 
+## RoadMap UPDATE(2025-04-10)
+
+|                Training Image                 |                     Label                     |
+| :-------------------------------------------: | :-------------------------------------------: |
+|       ![winter1](./assets/winter1.jpeg)       |                 winter(aespa)                 |
+| :-------------------------------------------: | :-------------------------------------------: |
+|       ![winter2](./assets/winter2.jpeg)       |                 winter(aespa)                 |
+| :-------------------------------------------: | :-------------------------------------------: |
+|       ![winter3](./assets/winter3.jpg)        |                 winter(aespa)                 |
+| :-------------------------------------------: | :-------------------------------------------: |
+|      ![chaewon1](./assets/chaewon.jpeg)       |              chaewon(lesserafim)              |
+
+Since it's not feasible to use hundreds of actual family photos, we conducted tests using a small number of realistic images. As I'm Korean, I chose two popular Korean celebrities with similar appearances as the base: Winter from aespa and Kim Chaewon from LE SSERAFIM.
+
 ## If you want to experience the example model together, download my model from the respective Hugging Face page.
+
+|         Input Image          |          Output Label          |
+| :--------------------------: | :----------------------------: |
+| ![input](./assets/input.jpg) | ![output](./assets/output.jpg) |
+
+We can see that the analysis works well.
+
+The current model output needs to be adjusted with a new dataset, but what remains crucial is the model’s ability to recognize and understand the given text data.
+Please take a look at the overall sampling video.
+
 [huggingface](https://huggingface.co/devJy/space-voice-label-detect-beta)
